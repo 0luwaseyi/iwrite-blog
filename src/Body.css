@@ -1,0 +1,171 @@
+.background-image{
+    
+    background: linear-gradient(hsla(120, 100%, 25%, 0.556), hsl(0, 0%, 0%)), 
+                url(bodybac.jpg) no-repeat;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 51vw;
+    background-size: cover;
+    max-width: 100%;
+    border: 1px solid green;
+
+
+}
+#tsparticles {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+
+
+
+.head-name{
+    font-size: 5em;
+    color: #fff;
+    padding-top: 15%;
+    padding-left: 20%;
+    margin-top: 0;
+    margin-bottom: 1vw;
+
+}
+
+.sub-head{
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 2vw;
+    text-shadow: 2px 3px 5px white;
+    
+
+}
+
+.btn-primary{
+    height: 3vw;
+    width: 8vw;
+    background: linear-gradient(yellow, rgba(0, 0, 0, 0.378));
+    color: black;
+    place-content: center;
+    justify-content: center;
+    border-radius: 1.5em;
+    font-size: 1vw;
+    margin-left: 38%;
+    margin-right: 2%;
+    border: 2px solid rgba(255, 255, 0, 0.193);
+    cursor: pointer;
+    z-index: 9999;
+    position: relative;
+    
+    
+}
+
+.btn-success{
+    height: 3vw;
+    width: 8vw;
+    background: linear-gradient(yellow, rgba(0, 0, 0, 0.378));
+    color: black;
+    place-content: center;
+    justify-content: center;
+    border-radius: 1.5em;
+    font-size: 1vw;
+    border: 2px solid rgba(255, 255, 0, 0.193);
+    cursor: pointer;
+    z-index: 9999;
+    position: relative;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .background-image{
+        width: 100%;
+        height: 900px;
+
+    }
+
+    .head-name{
+        padding-top: 30%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .background-image{
+        width: 100%;
+    }
+
+    .head-name{
+        padding-top: 28%;
+        padding-left: 15%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px){
+    .background-image{
+        width: 100%;
+    }
+
+    .head-name{
+        padding-top: 35%;
+        padding-left: 15%;
+        font-size: 4em;
+    }
+
+    .btn-success{
+        display: none;
+    }
+
+    .btn-primary{
+        margin-left: 43%;
+        height: 5vw;
+        width: 13.5vw;
+        font-size: 0.9em;
+        border-radius: 0.9em;
+
+    }
+}
+
+@media screen and (max-width: 480px){
+    .background-image{
+        width: 96vw;
+        
+    }
+
+    .head-name{
+        padding-top: 45%;
+        padding-left: 20%;
+        font-size: 3em;
+
+    }
+
+    .sub-head{
+        font-size: 1.3em;
+    }
+
+    .btn-success{
+        display: none;
+    }
+
+    .btn-primary{
+        margin-left: 40%;
+        height: 8vw;
+        width: 20vw;
+        font-size: 0.7em;
+        border-radius: 1.1em;
+    }
+}
+
+
+
+
+

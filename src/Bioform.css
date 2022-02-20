@@ -1,0 +1,22 @@
+
+
+.textarea{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.926);
+    border: 1px solid black;
+    margin-top: 10%;
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-left: 34%;
+    border-radius: 1.2em;
+    box-shadow: 10px 12px 16px black;
+}
+
+label{
+    color: #fff;
+}
+
+.biostyle{
+    
+}

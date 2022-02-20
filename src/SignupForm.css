@@ -1,0 +1,133 @@
+
+
+.form-class{
+    height: 2vw;
+    width: 15vw;
+    border-radius: 1.2em;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    display: list-item;
+    place-content: center;
+    justify-content: center;
+    margin-left: 3vw;
+    padding-left: 15px;
+    
+}
+
+
+#form-background{
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.755);
+    margin-left: 35vw;
+    margin-right: 15vw;
+    border-radius: 1.5em;
+    box-shadow: inset 4px 6px 8px rgba(0, 0, 0, 0.809),
+                inset -6px -8px 10px rgba(0, 0, 0, 0.809);
+    position: absolute;
+    top: 0;
+    margin-top: 170px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9999;
+
+}
+
+.label{
+    color: yellow;
+    margin-bottom: 2vw;
+    font-size: 1.2em;
+    padding-left: 3vw;
+}
+
+.btn-secondary{
+    height: 3vw;
+    width: 8vw;
+    background-color: orange;
+    color: black;
+    place-content: center;
+    justify-content: center;
+    margin-left: 35%;
+    border-radius: 1.5em;
+    font-size: 1vw;
+
+    
+}
+ 
+.cancel{
+    float: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.371);
+    border-radius: 0.2em;
+    border: 0.5px solid rgba(0, 0, 0, 0.371);
+}
+
+
+@media screen and (max-width: 1200px){
+    #form-background{
+        margin-top: 140px;
+        
+    }
+
+    .form-class{
+        margin-top: 3vw;
+        margin-bottom: 1.5vw;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 980px){
+    #form-background{
+        margin-top: 130px;
+        margin-left: 35vw;
+        margin-right: 13vw;
+        padding-right: 30px;
+        padding-left: 12px;
+
+    }
+
+    .form-class{
+        width: 20vw;
+        height: 3vw;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    #form-background{
+        margin-left: 30vw;
+        padding-left: 15px;
+    }
+
+    .form-class{
+        width: 24vw;
+        height: 4vw;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    #form-background{
+        margin-left: 18vw;
+        padding-right: 25px;
+        padding-left: 20px;
+    }
+
+    .form-class{
+        width: 35vw;
+        height: 4.5vw;
+        margin-bottom: 4vw;
+        margin-top: 2.5vw;
+    }
+
+    .btn-secondary{
+        height: 6vw;
+        width: 14vw ;
+        margin-left: 38%;
+        font-size: 0.5rem;
+    }
+
+    
+}
