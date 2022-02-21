@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Cookies from 'js-cookie';
 import Body from './Body'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Profile from './Profile'
 import Livefeed from './Livefeed'
 import './App.css'
@@ -47,7 +47,7 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
+            <Router basename={process.env.BASE_URL}>
                 <div className="App">
      
 

@@ -8,19 +8,19 @@
 
     {
         title: 'Profile',
-        url: '/profile',
+        url: '/#/profile',
         cName: 'nav-links'
     },
 
     {
         title: 'Live Feed',
-        url: '/livefeed',
+        url: '/#/livefeed',
         cName: 'nav-links'
     },
 
     {
         title: 'Contact us',
-        url: '/contactus',
+        url: '/#/contactus',
         cName: 'nav-links'
     },
 

@@ -34,7 +34,7 @@ class Profile extends Component {
     render() {
         if(this.state.user === null) {
             return (
-                <div>loading ....</div>
+                <div>loading .... </div>
             )
         }
         return (
