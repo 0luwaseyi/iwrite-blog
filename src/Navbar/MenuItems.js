@@ -8,19 +8,19 @@
 
     {
         title: 'Profile',
-        url: '/#/profile',
+        url: '/iwrite-blog/#/profile',
         cName: 'nav-links'
     },
 
     {
         title: 'Live Feed',
-        url: '/#/livefeed',
+        url: '/iwrite-blog/#/livefeed',
         cName: 'nav-links'
     },
 
     {
         title: 'Contact us',
-        url: '/#/contactus',
+        url: '/iwrite-blog/#/contactus',
         cName: 'nav-links'
     },
 
