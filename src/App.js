@@ -6,7 +6,6 @@ import Profile from './Profile'
 import Livefeed from './Livefeed'
 import './App.css'
 import Error from './Error';
-//import Particles from 'react-tsparticles'
 
 
 
