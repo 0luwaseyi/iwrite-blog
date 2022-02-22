@@ -4,10 +4,9 @@
                 url(bodybac.jpg) no-repeat;
     position: relative;
     background-repeat: no-repeat;
-    height: 51.5vw;
+    height: 51.7vw;
     background-size: cover;
     max-width: 100%;
-    border: 1px solid green;
 
 
 }
@@ -137,7 +136,7 @@
 
 @media screen and (max-width: 480px){
     .background-image{
-        width: 96vw;
+        width: 102vw;
         
     }
 
@@ -163,6 +162,8 @@
         font-size: 0.7em;
         border-radius: 1.1em;
     }
+
+
 }
 
 

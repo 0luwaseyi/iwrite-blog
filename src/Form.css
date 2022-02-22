@@ -96,12 +96,12 @@
 @media screen and (max-width: 767px){
     #form-background-login{
         margin-top: 360px;
-        padding-right: 18px;
+        padding-right: 15px;
         margin-left: 32vw;
     }
 
     .form-class{
-        width: 25vw;
+        width: 48vw;
         height: 4vw;
     }
 
@@ -147,4 +147,16 @@
 
     }
 
+}
+
+@media screen and (max-width: 425px){
+    #form-background-login{
+        margin-left: 25vw;
+        width: 48vw;
+    }
+
+    .form-class{
+        width: 48vw;
+        margin-right: 0;
+    }
 }
