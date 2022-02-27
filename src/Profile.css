@@ -5,6 +5,18 @@ h2{
     text-align: center;
 }
 
+#wait-page{
+    background-color: rgba(0, 128, 0, 0.802);
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 27vw;
+    padding-top: 25%;
+    font-size: 1.5em;
+    position:relative;
+    max-height:fit-content;
+}
+
 /*.profile-header{
     background-color: rgba(128, 128, 128, 0.104);
 }*/

@@ -4,6 +4,7 @@ import SignupForm from './SignupForm'
 import './Body.css'
 import Navbar from './Navbar/Navbar'
 import Particles from 'react-tsparticles'
+import QuotesSlider from 'react-quotes-slider'
 
 
 
@@ -28,6 +29,7 @@ class Body extends Component{
            })
 
            document.title = "Log in"
+           document.styleSheets.Body.Background = "black"
 
     }
 
@@ -44,11 +46,11 @@ class Body extends Component{
             signup : false,
             form:  false
         })
-        document.title = "Homepage"
+        document.title = "i-Write"
     }
 
     componentDidMount(){
-        document.title = "Homepage"
+        document.title = "i-Write"
     }
 
     
@@ -148,8 +150,8 @@ class Body extends Component{
                 
             
                
-                <h1 className='head-name'>
-                    {this.state.title}
+                <h1 className='head-name'><em> {this.state.title}</em>
+                   
                 </h1>
                 <p  onMouseOver = {this.quoteHandler} className='sub-head'><em>"{this.state.quote}"
                 </em></p>

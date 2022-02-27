@@ -34,7 +34,7 @@
 }
 
 .label{
-    color: yellow;
+    color: #fff;
     margin-bottom: 2vw;
     font-size: 1.2em;
     padding-left: 3vw;
@@ -43,8 +43,8 @@
 .btn-secondary{
     height: 3vw;
     width: 8vw;
-    background-color: orange;
-    color: black;
+    background-color: green;
+    color: white;
     place-content: center;
     justify-content: center;
     margin-left: 35%;
@@ -89,21 +89,35 @@
     }
 
     .form-class{
-        width: 20vw;
+        width: 28vw;
         height: 3vw;
+    }
+
+    .btn-secondary{
+        margin-left: 39%;
+        height: 4vw;
+        width: 10vw;
+        font-size: 0.75em;
     }
 }
 
 
 @media screen and (max-width: 767px){
     #form-background{
-        margin-left: 30vw;
+        margin-left: 41vw;
         padding-left: 15px;
     }
 
     .form-class{
-        width: 24vw;
+        width: 39.5vw;
         height: 4vw;
+    }
+
+    .btn-secondary{
+        height: 7vw;
+        width: 16vw;
+        margin-top: 3vw;
+        font-size: 0.6em;
     }
 }
 
@@ -116,18 +130,31 @@
     }
 
     .form-class{
-        width: 35vw;
+        width: 38vw;
         height: 4.5vw;
         margin-bottom: 4vw;
         margin-top: 2.5vw;
     }
 
     .btn-secondary{
-        height: 6vw;
+        height: 8vw;
         width: 14vw ;
         margin-left: 38%;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     
+}
+
+@Media screen and (max-width: 425px){
+    .form-class{
+        width: 40vw;
+    }
+
+    .btn-secondary{
+        height: 8.5vw;
+        width: 19vw;
+        font-size: 0.75em;
+        margin-left: 36%;
+    }
 }

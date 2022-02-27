@@ -1,6 +1,6 @@
 .background-image{
     
-    background: linear-gradient(hsla(120, 100%, 25%, 0.556), hsl(0, 0%, 0%)), 
+    background: linear-gradient(hsla(120, 100%, 25%, 0.652), hsl(0, 0%, 0%)), 
                 url(bodybac.jpg) no-repeat;
     position: relative;
     background-repeat: no-repeat;
@@ -27,11 +27,11 @@
 .head-name{
     font-size: 5em;
     color: #fff;
-    padding-top: 15%;
+    padding-top: 17.5%;
     padding-left: 20%;
     margin-top: 0;
     margin-bottom: 1vw;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sub-head{
@@ -48,15 +48,15 @@
 .btn-primary{
     height: 3vw;
     width: 8vw;
-    background: linear-gradient(yellow, rgba(0, 0, 0, 0.378));
-    color: black;
+    background:hsla(120, 100%, 25%, 0.556);
+    color: white;
     place-content: center;
     justify-content: center;
     border-radius: 1.5em;
     font-size: 1vw;
     margin-left: 38%;
     margin-right: 2%;
-    border: 2px solid rgba(255, 255, 0, 0.193);
+    border: 2px solid hsla(120, 100%, 25%, 0.076);
     cursor: pointer;
     z-index: 9999;
     position: relative;
@@ -67,13 +67,13 @@
 .btn-success{
     height: 3vw;
     width: 8vw;
-    background: linear-gradient(yellow, rgba(0, 0, 0, 0.378));
-    color: black;
+    background: hsla(120, 100%, 25%, 0.556);
+    color: white;
     place-content: center;
     justify-content: center;
     border-radius: 1.5em;
     font-size: 1vw;
-    border: 2px solid rgba(255, 255, 0, 0.193);
+    border: 2px solid hsla(120, 100%, 25%, 0.076);
     cursor: pointer;
     z-index: 9999;
     position: relative;
@@ -91,7 +91,8 @@
 
     .head-name{
         padding-top: 30%;
-        padding-left: 10%;
+        padding-left: 4%;
+        text-align: center;
     }
 }
 
@@ -102,7 +103,8 @@
 
     .head-name{
         padding-top: 28%;
-        padding-left: 15%;
+        padding-left: 6%;
+        text-align: center;
     }
 
 
@@ -116,8 +118,14 @@
 
     .head-name{
         padding-top: 35%;
-        padding-left: 15%;
+        padding-left: 4%;
         font-size: 4em;
+        text-align: center;
+    }
+
+    .sub-head{
+        font-size: 1.3em;
+
     }
 
     .btn-success{
@@ -126,10 +134,11 @@
 
     .btn-primary{
         margin-left: 43%;
-        height: 5vw;
+        height: 6vw;
         width: 13.5vw;
         font-size: 0.9em;
-        border-radius: 0.9em;
+        border-radius: 0.6em;
+        margin-top: 3vw;
 
     }
 }
@@ -142,13 +151,16 @@
 
     .head-name{
         padding-top: 45%;
-        padding-left: 20%;
+        padding-left: 6%;
         font-size: 3em;
+        text-align: center;
+        margin-right: 10vw;
+        margin-left: 6vw;
 
     }
 
     .sub-head{
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .btn-success{
@@ -159,10 +171,18 @@
         margin-left: 40%;
         height: 8vw;
         width: 20vw;
-        font-size: 0.7em;
-        border-radius: 1.1em;
+        font-size: 0.8em;
+        border-radius: 1.2em;
+        margin-top: 20px;
     }
 
+
+}
+
+@media screen and (max-height: 599px){
+    .background-image{
+        height: 599px;
+    }
 
 }
 

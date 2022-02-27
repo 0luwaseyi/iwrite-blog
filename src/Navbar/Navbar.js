@@ -4,6 +4,10 @@ import './Navbar.css'
 import './css/fontawesome.css'
 import SignupForm from '../SignupForm'
 
+const signup = {
+    zIndex: "9999"
+}
+
 class Navbar extends Component {
 
     constructor() {
@@ -39,7 +43,7 @@ class Navbar extends Component {
         return (
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">
-                    i-WRITE
+                    i-write
                 </h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}> </i>
@@ -57,7 +61,7 @@ class Navbar extends Component {
                         <button className='nav-links-mobile' onClick = {this.clickSignup}>Sign up</button>
 
                         {
-                            this.state.signup ? <SignupForm rem ={this.removeSignup} /> : null
+                            this.state.signup ? <SignupForm style = {signup} rem ={this.removeSignup} /> : null
                         }
 
                         

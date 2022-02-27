@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import Profilepic from './Profilepic'
 import Storycreator from './Storycreator'
 import {apiFetcher} from './functions/function'
+import './Profile.css'
+import Navbar from './Navbar/Navbar'
+
+
 
 class Profile extends Component {
     constructor(props){
@@ -34,11 +38,12 @@ class Profile extends Component {
     render() {
         if(this.state.user === null) {
             return (
-                <div>loading .... </div>
+                <body id='wait-page'>loading ... </body>
             )
         }
         return (
             <div>
+                 <Navbar />
                 <Profilepic user = {this.state.user} />
                 <Storycreator />
             </div>

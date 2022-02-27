@@ -1,19 +1,23 @@
 .NavbarItems{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,79,26,1) 31%, rgba(0,255,4,1) 100%);
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.481);
 }
+
 
 .navbar-logo{
     color: #fff;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .fa-react{
@@ -23,6 +27,10 @@
 
 .fa-bars{
     z-index: 9999;
+}
+
+.fa-times{
+    color: #fff;
 }
 
 .nav-menu {
@@ -62,6 +70,12 @@
     display: none; 
 }
 
+
+.navbar-logo{
+    margin-top: 4px;
+    margin-left: 0;
+}
+
 @media screen and  (max-width: 767px){
     .NavbarItems{
         position: relative;
@@ -75,7 +89,7 @@
         top: 80px;
         left: -100%;
         opacity: 1;
-        transition:all 2s ease-in-out;
+        transition:all 0.5s ease-in-out;
         padding-left: 0;
     }
     
@@ -83,7 +97,7 @@
        background: #000000b1;
        left: 0;
        opacity: 1;
-       transition: all 2s ease-out;
+       transition: all 0.5s ease-out;
        z-index: 9999;
        padding-bottom: 13px;
 
@@ -126,14 +140,21 @@
        background-color: green;
        text-align: center;
        left: 0;
-       margin-left: 41.5vw;
+       margin-left: 43.5vw;
        width: 13vw;
        height: 5vw;
        border: 2px solid green;
        border-radius: 0.2em;
        color: #fff;
+
        z-index: 9999;
    }
+
+   
+   .navbar-logo{
+    margin-top: 4px;
+    margin-left: 0;
+}
 }
 
 @media screen and (max-width: 480px){
@@ -141,6 +162,24 @@
         display: block;
         width: 18vw;
         height: 8vw;
-        margin-left: 39vw;
+        margin-left: 40.8vw;
     }
+
+    .NavbarItems{
+        background: hsla(120, 100%, 25%, 0.193);
+        border-bottom-left-radius: 0em;
+        border-bottom-right-radius: 0em;
+        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.337);
+    }
+
+    .navbar-logo{
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+    .nav-signup{
+        z-index: 9999;
+    }
+
+    
 }
