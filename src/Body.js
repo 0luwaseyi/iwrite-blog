@@ -4,7 +4,7 @@ import SignupForm from './SignupForm'
 import './Body.css'
 import Navbar from './Navbar/Navbar'
 import Particles from 'react-tsparticles'
-import QuotesSlider from 'react-quotes-slider'
+//import QuotesSlider from 'react-quotes-slider'
 
 
 
