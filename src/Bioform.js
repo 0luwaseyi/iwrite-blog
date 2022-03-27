@@ -6,6 +6,7 @@ class Bioform extends Component{
         return(
             <div className = "bio-style">
                 <textarea className='textarea' name='bio' rows={20} cols={60} placeholder='write something about yourself...'  />
+                <button className='bio-button'>Edit Bio</button>
             </div>
         )
     }

@@ -3,7 +3,8 @@ import Profilepic from './Profilepic'
 import Storycreator from './Storycreator'
 import {apiFetcher} from './functions/function'
 import './Profile.css'
-import Navbar from './Navbar/Navbar'
+import WriteBlog from './Writeblog'
+import ReactLoading from  'react-loading'
 
 
 
@@ -11,16 +12,34 @@ class Profile extends Component {
     constructor(props){
         super(props)
         this.state = {
-            user : null
+            user : null,
+            write: true,
+            create: "Create a Story"
         }
         
     }
 
     componentDidMount(){
-        console.log(this.props)
-
-
+        document.title = "Profile"
     }
+
+    toggleHandler = ()=>{
+       if(this.state.write === true){
+           this.setState({
+               write: false,
+               create: "Stories" 
+           })
+       }
+      else if(this.state.write === false){
+          this.setState({
+              write: true,
+             create: "Create a Story"
+          })
+      }
+        console.log("clicked")
+    }
+
+
 
     componentDidUpdate(prevProps){
         apiFetcher("GET", `info/${this.props.token}`)
@@ -29,24 +48,33 @@ class Profile extends Component {
                 if(value.status === 200) {
                     this.setState({user : value.data.info})
                 } else {
-                   // window.location.replace("/")
+                    window.location.replace("/")
                 }
             }
         )
+
 
     }
     render() {
         if(this.state.user === null) {
             return (
-                <body id='wait-page'>loading ... </body>
+                <div id = "wait-page">
+                    <ReactLoading  className="loading" type = "spokes" color= "white" height = {280} width = {120} />
+                    <p>Wait a second...</p>
+
+                </div>
+                
             )
         }
         return (
             <div>
-                 <Navbar />
-                <Profilepic user = {this.state.user} />
-                <Storycreator />
+                <Profilepic user = {this.state.user} onClick = {this.toggleHandler}  create = {this.state.create} />
+                {
+                    this.state.write ? (<Storycreator />) : (<WriteBlog/>)
+                }
+ 
             </div>
+            
         )
     }
 }

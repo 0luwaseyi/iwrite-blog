@@ -7,18 +7,66 @@ h2{
 
 #wait-page{
     background-color: rgba(0, 128, 0, 0.802);
+    background-size: cover;
     display: flex;
     justify-content: center;
     color: white;
-    height: 27vw;
-    padding-top: 25%;
+    height: 29vw;
+    padding-top: 23%;
     font-size: 1.5em;
     position:relative;
     max-height:fit-content;
+    margin-left: 0;
 }
+
+p{
+    margin-left: 2vw;
+}
+
 
 /*.profile-header{
     background-color: rgba(128, 128, 128, 0.104);
 }*/
+
+.btn-tertiary{
+    height: 3vw;
+    width: 8vw;
+    background-color: rgba(0, 128, 0, 0.898);
+    color: white;
+    place-content: center;
+    justify-content: center;
+    margin-left: 45%;
+    border-radius: 1.5em;
+    font-size: 1vw;
+    border: 2px solid rgb(0, 128, 0);
+    cursor: pointer;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    
+}
+
+/*.loading{
+   padding-top: 22%;
+   margin-left: 45%;
+}*/
+
+
+@media screen and (max-width: 767px){
+    .btn-tertiary{
+        height: 5vw;
+        width: 13vw;
+        font-size: 0.7em ;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .btn-tertiary{
+        height: 9vw;
+        width: 19vw;
+        font-size: 0.7em;
+    }
+
+
+}
 
 

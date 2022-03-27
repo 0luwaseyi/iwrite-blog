@@ -1,6 +1,6 @@
 .background-image{
     
-    background: linear-gradient(hsla(120, 100%, 25%, 0.652), hsl(0, 0%, 0%)), 
+    background: linear-gradient(hsla(120, 100%, 25%, 0.563), hsl(0, 0%, 0%)), 
                 url(bodybac.jpg) no-repeat;
     position: relative;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
 .btn-primary{
     height: 3vw;
     width: 8vw;
-    background:hsla(120, 100%, 25%, 0.556);
+    background:hsla(120, 95%, 48%, 0.926);
     color: white;
     place-content: center;
     justify-content: center;
@@ -64,10 +64,16 @@
     
 }
 
+
+.btn-primary:hover{
+    background: white;
+    color: green;
+}
+
 .btn-success{
     height: 3vw;
     width: 8vw;
-    background: hsla(120, 100%, 25%, 0.556);
+    background: hsla(120, 98%, 45%, 0.926);
     color: white;
     place-content: center;
     justify-content: center;
@@ -77,6 +83,11 @@
     cursor: pointer;
     z-index: 9999;
     position: relative;
+}
+
+.btn-success:hover{
+    background: white;
+    color: green;
 }
 
 
@@ -146,6 +157,7 @@
 @media screen and (max-width: 480px){
     .background-image{
         width: 102vw;
+        
         
     }
 

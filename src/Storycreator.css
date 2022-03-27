@@ -1,3 +1,91 @@
-.story-body{
-    background: gray;
+
+
+#svg-picture{
+    border-radius: 0;
+    margin-left: 0;
+    margin-top: 4px;
+    height: 250px;
+    width: 450px;
+}
+
+.color-design{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 120px;
+    width: 120px;
+    background-color: rgba(0, 128, 0, 0.111);
+    margin-bottom: 20%;
+    margin-left: 35%;
+    position: absolute;
+    top: 0;
+    margin-top: 40%;
+}
+
+.second-design{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 120px;
+    width: 120px;
+    background-color: rgba(0, 128, 0, 0.111);
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-left: 60%;
+}
+
+body{
+    background-color: none;
+}
+
+@media screen and (max-width: 1300px){
+    .color-design{
+        display: none;
+    }
+
+    .second-design{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .color-design{
+        display: none;
+    }
+
+    .second-design{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .color-design{
+        display: none;
+    }
+
+    .second-design{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 480px){
+    #svg-picture{
+        width: 380px;
+    }
+
+    .curve{
+        font-size: 4em;
+    }
+
+    .color-design{
+        display: none;
+    }
+
+    .second-design{
+        display: none;
+    }
+
 }

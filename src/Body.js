@@ -29,7 +29,6 @@ class Body extends Component{
            })
 
            document.title = "Log in"
-           document.styleSheets.Body.Background = "black"
 
     }
 

@@ -8,15 +8,40 @@
     position: absolute;
     top: 0;
     margin-top: 30%;
-    margin-left: 34%;
+    margin-left: 36%;
     border-radius: 1.2em;
-    box-shadow: 10px 12px 16px black;
+    box-shadow: 6px 6px 12px black,
+               -6px -6px 12px black;
+    z-index: 9999;
 }
 
 label{
     color: #fff;
 }
 
-.biostyle{
-    
+/*.bio-style{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-left: 36%;
+}*/
+
+.bio-button{
+    position: absolute;
+    top: 0;
+    margin-top: 30%;
+    margin-left: 36%;height: 3vw;
+    width: 8vw;
+    background-color: rgba(0, 128, 0, 0.898);
+    color: white;
+    place-content: center;
+    justify-content: center;
+    margin-left: 45%;
+    border-radius: 1.5em;
+    font-size: 1vw;
+    border: 2px solid rgb(0, 128, 0);
+    cursor: pointer;
+    margin-top: 3vw;
 }
+
