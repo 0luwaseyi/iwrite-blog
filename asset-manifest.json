@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iwrite-blog/static/css/main.b4a52d70.css",
+    "main.css": "/iwrite-blog/static/css/main.6dd4c5dc.css",
     "main.js": "/iwrite-blog/static/js/main.8ae75288.js",
     "static/js/787.e2812182.chunk.js": "/iwrite-blog/static/js/787.e2812182.chunk.js",
     "static/media/bodybac.jpg": "/iwrite-blog/static/media/bodybac.850b637cd27120c99694.jpg",
@@ -8,12 +8,12 @@
     "static/media/user-profile.png": "/iwrite-blog/static/media/user-profile.5b44f2951eefb0dc5a66.png",
     "static/media/undrawpic.png": "/iwrite-blog/static/media/undrawpic.1551a298cc03218573fc.png",
     "index.html": "/iwrite-blog/index.html",
-    "main.b4a52d70.css.map": "/iwrite-blog/static/css/main.b4a52d70.css.map",
+    "main.6dd4c5dc.css.map": "/iwrite-blog/static/css/main.6dd4c5dc.css.map",
     "main.8ae75288.js.map": "/iwrite-blog/static/js/main.8ae75288.js.map",
     "787.e2812182.chunk.js.map": "/iwrite-blog/static/js/787.e2812182.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4a52d70.css",
+    "static/css/main.6dd4c5dc.css",
     "static/js/main.8ae75288.js"
   ]
 }
